@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
+#include <limits.h>
 
 /**
  * main - whether the number stored in the variable n is positive or negative
