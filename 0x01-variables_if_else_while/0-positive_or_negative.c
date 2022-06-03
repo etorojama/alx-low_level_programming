@@ -4,11 +4,11 @@
 #include <limits.h>
 
 /**
- * @0-positive_or_negative.c - whether the number stored in the variable
- *
+ * main - entry point
+ * 
  * Description: number stored in the variable n is positive or negative.
  *
- * Return - 0
+ * Return - 0 on success
  */
 
 int main(void)
