@@ -4,8 +4,9 @@
 #include <limits.h>
 
 /**
- * main - whether the number stored in the variable n is positive or negative
- * variable n will store a different value every time you will run this program
+ * @0-positive_or_negative.c - whether the number stored in the variable
+ *
+ * Description: number stored in the variable n is positive or negative.
  *
  * Return - 0
  */
