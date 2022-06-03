@@ -5,10 +5,9 @@
 
 /**
  * main - entry point
- * 
- * Description: number stored in the variable n is positive or negative.
  *
- * Return - 0 on success
+ * Description: number stored in the variable n is positive or negative.
+ * Return: 0 on success
  */
 
 int main(void)
