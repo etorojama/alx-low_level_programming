@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * 
+ *
  * Description: Print all the letters except q and e
  * Return: 0 on success
  */
