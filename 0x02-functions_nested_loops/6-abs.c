@@ -11,5 +11,5 @@ int _abs(int c)
 	if (c >= 0)
 		return;
 	else
-		return abs(c);
+		return c * -1;
 }
