@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_sign - Determines if the input number
  * is positive, negative or equal to zero.
  *
