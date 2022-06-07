@@ -2,7 +2,8 @@
 
 /**
  * _islower - prints lower characters
- * @c - integer to return
+ *
+ * @c: The character in ASCII code
  *
  * Return: 0 on success
  */
