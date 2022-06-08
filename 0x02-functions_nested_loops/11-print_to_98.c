@@ -41,7 +41,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				_putchar(j + '0')
+				_putchar(j + '0');
 			}
 		}
 	}
