@@ -11,7 +11,7 @@ void print_to_98(int n)
 {
 	if (n == 98)
 	{
-		_putchar(n + '0');
+		_putchar(j);
 	}
 	else if (n < 98)
 	{
@@ -21,11 +21,11 @@ void print_to_98(int n)
 		{
 			if (j == 98)
 			{
-				_putchar(j + '0');
+				_putchar(j);
 			}
 			else
 			{
-				_putchar(j + '0');
+				_putchar(j;
 			}
 		}
 	}
@@ -37,11 +37,11 @@ void print_to_98(int n)
 		{
 			if (j == 98)
 			{
-				_putchar(j + '0');
+				_putchar(j);
 			}
 			else
 			{
-				_putchar(j + '0');
+				_putchar(j);
 			}
 		}
 	}
