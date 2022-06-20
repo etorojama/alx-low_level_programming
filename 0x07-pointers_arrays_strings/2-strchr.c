@@ -21,6 +21,7 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
+
 	if (s[counter] == c)
 		p = &s[counter];
 	return (p);
