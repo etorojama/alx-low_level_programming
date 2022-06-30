@@ -7,7 +7,7 @@
  * @s2: The second string.
  * @n: The maximum number of bytes of s2 to concatenate to s1.
  *
- * Return: 0 on success
+ * Return: If the function fails - NULL.
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
