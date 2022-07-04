@@ -1,5 +1,14 @@
-#define DOG_H_
-#ifndef DOG_H_
+#define DOG_H
+#ifndef DOG_H
+
+/**
+ * struct dog - dog struct
+ * @name: First member
+ * @age: Second member
+ * @owner: Third member
+ *
+ * Description: a struct called dog with three members
+ */
 
 struct dog
 {
