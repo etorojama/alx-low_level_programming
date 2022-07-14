@@ -29,17 +29,23 @@ int _strlen(const char *str)
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *temp;
+	list_t *new = NULL;
+	size_t i = 0;
 
-	temp = malloc(sizeof(list_t));
-	if (temp == NULL)
+	new = malloc(sizeof(list_t));
+	if (!new)
+	{
+		free(new);
 		return (NULL);
+	}
 
-	temp->next = *head;
-	temp->str = strdup(str);
-	temp->len = _strlen(str);
+	for (i = 0; str[i]; i++)
+		;
 
-	*head = temp;
+	new->str = strdup(str) ? strdup(str) : (NULL);
+	new->len = i;
+	new->next = *head;
+	*head = new;
 
-	return (*head);
+	return (new);
 }
