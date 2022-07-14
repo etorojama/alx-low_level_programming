@@ -2,7 +2,7 @@
 
 /**
  * constructorRun - runs
- *
+ *  before main function is executed.
  */
 
 void constructorRun(void)
